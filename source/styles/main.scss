@@ -1,0 +1,105 @@
+* body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.first-screen {
+    width: 100%;
+    margin: auto;
+}
+.first-screen__picture {
+    width: 20%;
+    height: 84px;
+}
+.first-screen__container {
+    background-color: #eff0f2;
+}
+.first-screen__title {
+    width: 90%;
+    height: 33px;
+    text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+    color: #505050;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.first-screen__button {
+    width: 15%;
+    height: 53px;
+    /*opacity: 0.75;*/
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    border: 2px solid #000000;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.first-screenabout-us {
+    background-color: #f8fafa;
+}
+
+.about-us__container {
+    background-color: #f8fafa;
+}
+.about-us__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about-us__title {
+    width: 70%;
+    height: 28px;
+    opacity: 0.9;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-us__subtitle {
+    height: 15px;
+    opacity: 0.62;
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-us__right-title {
+    height: 17px;
+    opacity: 0.75;
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.about-us__information {
+    height: 212px;
+    /*opacity: 0.74;*/
+    color: #000000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.about-us__photo {
+    width: 40%;
+    height: 483px;
+}
